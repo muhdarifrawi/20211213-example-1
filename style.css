@@ -1,0 +1,40 @@
+/* parent */
+.container {
+  height: 50vh;
+  width: 100vw;
+  background-color: lightsalmon;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: space-between; */
+  gap: 10px;
+}
+/* child */
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+  margin: 10px;
+  color: white;
+  order: 2;
+  flex-grow: 2;
+}
+.box-2 {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  margin: 10px;
+  color: white;
+  order: 3;
+  align-self: flex-end;
+}
+.box-3 {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  margin: 10px;
+  color: white;
+  order: 1;
+}
